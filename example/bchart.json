@@ -1,0 +1,1 @@
+{"isStack": "true", "selector": "#vis", "width": 500, "colors": ["#dd00dd", "#00dd00"], "background": {"color": "#ffffff"}, "chartType": "area", "height": 500, "data": {"x": [], "dataValue": [["group1", "34", "54", "33"], ["group2", "53", "44", "65"]], "groups2": [], "groups": []}, "legend": {"display": "none"}}
