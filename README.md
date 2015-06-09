@@ -79,11 +79,19 @@ Example
 ----
 1. Download or clone this git to your machine. 
 2. **"cd"** to example folder. 
-3. Type in "python generate_areachart.py" in your terminal. 
+3. Type in 
+        
+        # to generate areachart.
+        python generate_areachart.py
+
 4. Then type in 
+
         python -m SimpleHTTPServer 8000 
         # use other port if 8000 is taken.
-5. Goto your browser and type in "localhost:8000/example.html".
+        
+5. Goto your browser and type in 
+ 
+        localhost:8000/example.html
 
 Group
 ---
