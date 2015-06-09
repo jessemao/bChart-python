@@ -54,7 +54,7 @@ Tutorial
             });
         </script>
  
-3. In your python app, you need to *import* bChart
+3. In your python app, you need to **import** bChart
         
         from bchart import *
         # after you import bchart, you could start to create your chart now.
@@ -78,7 +78,7 @@ Tutorial
 Example
 ----
 1. Download or clone this git to your machine. 
-2. *"cd"** to example folder. 
+2. **"cd"** to example folder. 
 3. Type in "python generate_areachart.py" in your terminal. 
 4. Then type in 
         python -m SimpleHTTPServer 8000 
