@@ -22,12 +22,14 @@ bChart python is a light weight library for python developers to create SVG-styl
 Install
 ----
 1. Install with pip. (virtualenv is recommemded)
+
         cd [to the path of your app folder]
         virtualenv venv
         source venv/bin/activate
         $pip install bchart 
 
-2. Download "bChart" from [PyPI](https://pypi.python.org/pypi/bChart/0.1.1) or [bChart Github](https://github.com/jessemao/bChart-python)
+2. Download "bChart" from [bChart PyPI](https://pypi.python.org/pypi/bChart/0.1.1) or [bChart Github](https://github.com/jessemao/bChart-python)
+    
         put bChart folder into your app folder
         cd [into bchart folder]
         python setup.py install
@@ -88,7 +90,7 @@ Example
 
         python -m SimpleHTTPServer 8000 
         # use other port if 8000 is taken.
-        
+
 5. Goto your browser and type in 
  
         localhost:8000/example.html
