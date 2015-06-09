@@ -6,25 +6,24 @@ except ImportError:
     from distutils.core import setup
 
 classifiers = (
-    'Development Status :: 0.1.0',
+    'Development Status :: 4 - Beta',
     'Programming Language :: Python :: 2.7',
-    'License :: MIT License',
+    'License :: OSI Approved :: MIT License',
 )
 
 kw = {
-    'name': 'bChart',
-    'version': '0.1.0',
+    'name': 'bchart',
+    'version': '0.1.1',
     'description': 'A Python script for bChart',
     'long_description': open('README.rst', 'rt').read(),
     'author': 'Jingxian Mao',
     'author_email': 'jessemao@gmail.com',
     'license': 'MIT License',
-    'url': 'https://github.com/wrobstory/vincent',
-    'keywords': 'data visualization',
+    'url': 'https://github.com/jessemao/bChart-python',
+    'keywords': 'data visualization, bChart, d3',
     'classifiers': classifiers,
-    'packages': ['vincent'],
-    'package_data': {'vincent': ['*.html']},
-    'install_requires': required,
+    'packages': ['bchart'],
+    'package_data': {'bchart': ['*.html']},
     'zip_safe': True,
 }
 
